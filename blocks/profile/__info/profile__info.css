@@ -1,0 +1,16 @@
+.profile__info {
+  max-width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 0 30px;
+}
+
+@media screen and (max-width: 520px) {
+  .profile__info {
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 26px;
+    justify-content: center;
+  }
+}

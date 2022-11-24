@@ -1,0 +1,10 @@
+.element__container {
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+}
