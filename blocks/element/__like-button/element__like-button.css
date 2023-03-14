@@ -1,7 +1,7 @@
 .element__like-button {
   border: none;
   margin: 0 20px 0 0;
-  background: url(../../../images/Vector-heart.jpg) center no-repeat;
+  background: url(../../../images/heart-icon.svg) center no-repeat;
   background-size: 100%;
   align-self: center;
   height: 19px;

@@ -1,5 +1,6 @@
-.element__container {
+.element {
   display: flex;
+  position: relative;
   justify-content: space-between;
   height: fit-content;
   flex-direction: row;

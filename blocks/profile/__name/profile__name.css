@@ -1,10 +1,14 @@
 .profile__name {
+  max-width: 320px;
   font-weight: 500;
   align-items: center;
   justify-content: center;
   font-size: 42px;
   line-height: 48px;
   margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,6 +20,7 @@
 
 @media screen and (max-width: 720px) {
   .profile__name {
+    max-width: 200px;
     font-size: 20px;
     line-height: 24px;
   }
