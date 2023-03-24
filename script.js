@@ -40,9 +40,16 @@ addButton.addEventListener('click', function () {
 });
 
 
-closeButton.addEventListener('click', closePopup);
+/*closeButton.addEventListener('click', function () {
+  closePopup(popup)
+});*/
 
-
+Array.from(document.querySelectorAll('.popup__close-button')).forEach((closeButton) => {
+  const currentPopup = element.closest('.popup');
+  closeButton.addEventListener('click', function() {
+      closePopup(currentPopup)
+   });
+});
 
 
 /*const editButton = document.querySelector('.profile__edit-button');
